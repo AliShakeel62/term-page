@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Privacy Policy — AI Automation</title>
+  <meta name="description" content="Human-friendly privacy policy for AI Automation — how we collect, use, and protect your data." />
+  <style>
+    :root{
+      --bg: #f6fbf7;
+      --card: #ffffff;
+      --muted:#6b7280;
+      --accent:#047857;
+      --accent-2:#064e3b;
+      --glass: rgba(255,255,255,0.6);
+      font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,var(--bg),#eaf7f0);color:#052f2b;line-height:1.6}
+    header{background:linear-gradient(90deg,rgba(4,120,87,0.08),rgba(6,78,59,0.04));backdrop-filter:blur(4px);padding:18px 20px}
+    .container{max-width:980px;margin:28px auto;padding:20px}
+    .top{display:flex;align-items:center;gap:16px}
+    .logo{width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:22px}
+    h1{margin:6px 0 0;font-size:22px}
+    p.lead{margin:6px 0 0;color:var(--muted)}
+
+    /* card */
+    .card{background:var(--card);border-radius:14px;padding:20px;margin-top:18px;box-shadow:0 6px 18px rgba(4,79,73,0.06)}
+    .grid{display:grid;grid-template-columns:1fr 300px;gap:18px}
+    .section{margin-bottom:18px}
+    h2{font-size:16px;margin:0 0 8px}
+    ul{padding-left:18px;margin:8px 0}
+    .muted{color:var(--muted);font-size:14px}
+
+    /* sidebar */
+    .toc{position:sticky;top:20px;padding:14px;border-radius:10px;background:linear-gradient(180deg,var(--glass),rgba(255,255,255,0.8));box-shadow:0 4px 12px rgba(2,6,23,0.04)}
+    .toc a{display:block;color:var(--accent-2);text-decoration:none;padding:6px 0;border-left:3px solid transparent}
+    .toc a:hover{border-left-color:var(--accent)}
+
+    /* footer */
+    footer{margin-top:18px;text-align:center;color:var(--muted);font-size:13px}
+
+    /* responsive */
+    @media (max-width:880px){
+      .grid{grid-template-columns:1fr}
+      .toc{display:flex;gap:12px;overflow:auto}
+      .toc a{white-space:nowrap}
+    }
+
+    /* small helpers */
+    .kbd{display:inline-block;padding:6px 8px;border-radius:6px;background:#f3f4f6;font-weight:600;font-size:13px}
+    .highlight{background:#f0fff7;border-left:4px solid var(--accent);padding:10px;border-radius:8px}
+    .contact{display:flex;gap:8px;align-items:center}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;background:var(--accent);color:white;text-decoration:none;font-weight:600}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container top">
+      <div class="logo">AI</div>
+      <div>
+        <h1>Privacy Policy</h1>
+        <p class="lead">A clear, human-friendly explanation of how <strong>AI Automation</strong> collects and uses data — written for real people, not lawyers.</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="grid">
+      <div>
+        <article class="card">
+          <section id="intro" class="section">
+            <h2>1. Quick summary — in plain words</h2>
+            <p class="muted">We build tools that automate tasks using AI. We only collect the data we need to make the product work and improve it. We never sell your personal information. Below we explain what we collect, why, and how you can control it.</p>
+          </section>
+
+          <section id="data-we-collect" class="section">
+            <h2>2. What data we collect</h2>
+            <p>We collect three kinds of information depending on how you use the product:</p>
+            <ul>
+              <li><strong>Account info:</strong> name, email, organization name — provided when you sign up.</li>
+              <li><strong>Usage data:</strong> anonymized logs about features you use, timestamps, and performance data to improve reliability.</li>
+              <li><strong>Content data:</strong> any text, files, or prompts you send to the AI for processing (this can include sensitive info you choose to provide).</li>
+            </ul>
+            <p class="muted">We may also collect device and browser information (IP, browser type) to secure the service and prevent abuse.</p>
+          </section>
+
+          <section id="how-we-use" class="section">
+            <h2>3. How we use your data</h2>
+            <ul>
+              <li><strong>Provide the service:</strong> process inputs you submit to produce results.</li>
+              <li><strong>Improve the product:</strong> analyze usage and performance to fix bugs and add features.</li>
+              <li><strong>Security & compliance:</strong> prevent abuse, detect fraud, and comply with legal obligations.</li>
+              <li><strong>Support:</strong> respond to requests, troubleshoot, and communicate important updates.</li>
+            </ul>
+          </section>
+
+          <section id="sharing" class="section">
+            <h2>4. Do we share your data?</h2>
+            <p>Short answer: only when necessary.</p>
+            <ul>
+              <li><strong>Service providers:</strong> we use trusted vendors (hosting, analytics) who act only on our instructions.</li>
+              <li><strong>Legal requests:</strong> we may disclose information to comply with law or protect rights.</li>
+              <li><strong>Aggregate or anonymized data:</strong> we may share non-identifying summaries for research or product improvements.</li>
+            </ul>
+            <p class="muted">We never sell your personal data to third-party advertisers.</p>
+          </section>
+
+          <section id="content-handling" class="section">
+            <h2>5. Your content & AI models</h2>
+            <p>Your inputs to our AI (prompts, uploaded files) are processed to generate outputs. You retain ownership of your content unless you agree otherwise in a separate agreement.</p>
+            <p class="muted">If you include sensitive or personal data in prompts, treat that data as visible to the systems that process it. If you want us not to retain that content, contact us (see below) and we will follow our data retention rules.</p>
+          </section>
+
+          <section id="cookies" class="section">
+            <h2>6. Cookies & local storage</h2>
+            <p>We use cookies and local storage for essential functions (sessions, preferences) and for optional analytics. You can manage cookie preferences via your browser settings or in-app controls.</p>
+          </section>
+
+          <section id="security" class="section">
+            <h2>7. Security</h2>
+            <p>We protect data with industry-standard measures: encrypted connections (TLS), access controls, and regular audits. While we work hard to secure data, no system is perfect. If we discover a breach, we will notify affected users as required by law.</p>
+          </section>
+
+          <section id="data-retention" class="section">
+            <h2>8. Data retention & deletion</h2>
+            <p>We keep different types of data for different periods — account info while your account exists, usage logs for up to 24 months for analytics, and content data according to your settings. You can request deletion of your account and stored content; we'll confirm when the process completes.</p>
+          </section>
+
+          <section id="your-rights" class="section">
+            <h2>9. Your rights</h2>
+            <p>You can:</p>
+            <ul>
+              <li>Access or export your account data.</li>
+              <li>Request correction or deletion of your data.</li>
+              <li>Opt out of certain analytics tracking.</li>
+            </ul>
+            <p class="muted">To exercise these rights, contact us using the details below. We may ask for proof of identity to protect your privacy.</p>
+          </section>
+
+          <section id="children" class="section">
+            <h2>10. Children</h2>
+            <p>Our services are not directed at children under 13. We do not knowingly collect information from children. If a parent suspects we have collected such data, please contact us so we can remove it.</p>
+          </section>
+
+          <section id="changes" class="section">
+            <h2>11. Changes to this policy</h2>
+            <p>We'll post updates here and, for major changes, notify account holders by email. We include the policy's "Last updated" date at the top of the page.</p>
+          </section>
+
+          <section id="contact" class="section">
+            <h2>12. Contact & effective date</h2>
+            <div class="highlight">
+              <p><strong>Effective date:</strong> September 30, 2025</p>
+              <p>If you have questions, requests, or want to delete your data, email: <a href="mailto:privacy@aiautomation.example">privacy@aiautomation.example</a></p>
+              <p class="muted">You can also write to: AI Automation, 123 Innovation Road, Karachi, Pakistan</p>
+            </div>
+          </section>
+
+        </article>
+
+        <footer>
+          <p>Thank you for trusting AI Automation. We value your privacy and work to keep your data safe.</p>
+        </footer>
+      </div>
+
+      <aside class="toc card">
+        <strong>On this page</strong>
+        <nav style="margin-top:10px">
+          <a href="#intro">Quick summary</a>
+          <a href="#data-we-collect">What we collect</a>
+          <a href="#how-we-use">How we use data</a>
+          <a href="#sharing">Sharing</a>
+          <a href="#content-handling">Content & AI</a>
+          <a href="#cookies">Cookies</a>
+          <a href="#security">Security</a>
+          <a href="#data-retention">Retention</a>
+          <a href="#your-rights">Your rights</a>
+          <a href="#children">Children</a>
+          <a href="#changes">Changes</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div style="margin-top:12px" class="contact">
+          <div style="width:44px;height:44px;border-radius:8px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700">AI</div>
+          <div>
+            <div style="font-weight:700">AI Automation</div>
+            <div class="muted" style="font-size:13px">privacy@aiautomation.example</div>
+            <a class="btn" href="mailto:privacy@aiautomation.example" style="margin-top:8px;display:inline-block">Contact us</a>
+          </div>
+        </div>
+      </aside>
+
+    </div>
+  </main>
+</body>
+</html>
